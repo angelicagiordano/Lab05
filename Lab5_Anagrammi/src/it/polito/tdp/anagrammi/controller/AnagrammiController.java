@@ -15,6 +15,7 @@ import javafx.scene.control.TextField;
 public class AnagrammiController {
 	
 	private Model model;
+	
 
     @FXML
     private ResourceBundle resources;
@@ -46,7 +47,7 @@ public class AnagrammiController {
     		txtResultCorretti.appendText(s+"\n");
     	}
     	for (String s: model.getAnagrammi(false)){
-    		txtResultErrati.appendText(s+"\neat");
+    		txtResultErrati.appendText(s+"\n");
     	}
     }
 
